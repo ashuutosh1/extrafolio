@@ -6,6 +6,7 @@ import {
   FaDribbble,
   FaGithub,
   FaLinkedinIn,
+  FaDiagramProject,
 } from "react-icons/fa6";
 
 export default function Navbar() {
@@ -47,9 +48,10 @@ export default function Navbar() {
               </a>
               <a
                 href="#projects"
-                className="flex gap-2 items-center opacity-50 p-2 hover:bg-black text-white hover:text-black rounded-full transition-all duration-300 hover:opacity-100"
+                className="flex gap-2 items-center opacity-50 p-2 hover:bg-black text-white hover:text-white rounded-full transition-all duration-300 hover:opacity-100"
               >
-                <FaLinkedinIn className="text-xl  dark:text-white" />
+                <FaDiagramProject className="text-xl  dark:text-white" />
+                <span className="sm:flex hidden">Projects</span>
               </a>
             </div>
             <div className="justify-center">
@@ -74,7 +76,7 @@ export default function Navbar() {
                   </svg>
                   <span className="">
                     <button onClick={handleView} className="">
-                       Resume
+                      Resume
                     </button>
                   </span>
                 </button>
