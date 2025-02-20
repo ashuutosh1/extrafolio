@@ -39,7 +39,7 @@ function Skills() {
   return (
     <>
       {/* =========== SKILLS TITLE =========== */}
-      <h4 className="text-4xl font-bold text-center mt-20 dark:text-white">
+      <h4 className="text-4xl font-bold text-center my-20 dark:text-white">
         {"TechStack </>"}
       </h4>
       <section id="skills" className="mx-4 lg:mx-20">

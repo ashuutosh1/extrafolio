@@ -13,52 +13,57 @@ const info = {
   projects: [
     {
       title: "Pseudocode to C",
+      date: "",
       description:
         "Pseudocode to C is a web app that translates pseudocode into C code, aiding in the transition from high-level logic to a lower-level language.",
       technologies: "React, Tailwind, Flask, SpaCy",
       github: "https://github.com",
-      link: "https://pseudocode-to-c.netlify.app/",
-      image: "images3.jpg" 
+      link: "",
+      image: "images3.jpg",
     },
 
     {
       title: "YouShare",
+      date: "",
       description:
         "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
       technologies: "Nuxt, Tailwind, Express, PostgreSQL",
       github: "https://github.com",
-      link: "https://github.com/dsbalico/YouShare",
-      image: "images4.jpg" 
+      link: "",
+      image: "images4.jpg",
     },
 
     {
       title: "Draw & Classify",
+      date: "",
       description:
         "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
       technologies: "React, Tailwind, Tensorflow",
       github: "https://github.com",
-      link: "https://letterdigitshape-classification.netlify.app/",
-      image: "school2.png" 
+      link: "",
+      image: "school2.png",
     },
 
     {
-      title: "Chatroom",
+      title: "EcoRide - Bike and Cab Booking Mobile App",
+      date: "Jan 2025 - April 2025",
       description:
         "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
-      technologies: "React, Tailwind, Firebase",
-      github: "https://github.com",
-      link: "https://thechatroom.netlify.app/",
-      image: "school1.png" 
+      technologies: "React_Native, CSS, Firebase,Google_Map_API",
+      github: "https://github.com/ashuutosh1/EcoRide-Mobile-App",
+      link: "",
+      image: "EcoRide_icon.jpg",
     },
 
     {
-      title: "Sudoku Solver",
+      title: "Anonymous File Sharing Platform",
+      date: "April 2023 - May 2023",
       description:
         "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-      technologies: "React, Tailwind, TypeScript",
-      github: "https://github.com",
-      link: "https://sudoku-solver-sa.netlify.app/",
-      image: "images4.jpg" 
+      technologies: "HTML, CSS, JavaScript",
+      github: "https://github.com/ashuutosh1/fileshare.github.io",
+      link: "https://fileshare-phi.vercel.app/",
+      image: "project1.png",
     },
   ],
 

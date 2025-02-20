@@ -1,10 +1,16 @@
 import { CiLink } from "react-icons/ci";
 
-function Project({ title, description, technologies, link, github, image }) {
+function Project({
+  title,
+  date,
+  description,
+  technologies,
+  link,
+  github,
+  image,
+}) {
   return (
     <div className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 md:rounded-xl">
-    
-
       {/* =========== PROJECT IMAGE =========== */}
       {image && (
         <img
@@ -30,6 +36,11 @@ function Project({ title, description, technologies, link, github, image }) {
           </span>
         ))}
       </div>
+
+      {/* =========== PROJECT DATE=========== */}
+      <p className="leading-7 text-zinc-500 dark:text-indigo-200 font-bold text-sm pt-6 ">
+        {date}
+      </p>
 
       {/* =========== PROJECT DESCRIPTION =========== */}
       <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
