@@ -17,9 +17,9 @@ export default function Social() {
           <div className="flex items-center justify-between px-7 py-7 gap-6 rounded-lg">
             <div className=" text-xl font-bold text-white flex items-center gap-x-2">
               <div className="w-1.5 h-1.5  bg-gray-400 rounded-full"></div>
-              Connect with me on:
+              Connect with me on
             </div>
-            <div className="flex flex-wrap gap-x-4">
+            <div className="flex flex-wrap gap-x-4 gap-y-4">
               {socialLinks.map((socialLink, index) => {
                 const iconMap = {
                   FaXTwitter,

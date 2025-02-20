@@ -20,6 +20,7 @@ function Projects() {
               technologies={project.technologies}
               github={project.github}
               link={project.link}
+              image={project.image} // Pass image prop here
             />
           );
         })}

@@ -1,8 +1,24 @@
 import { CiLink } from "react-icons/ci";
 
-function Project({ title, description, technologies, link, github }) {
+function Project({ title, description, technologies, link, github, image }) {
   return (
     <div className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 md:rounded-xl">
+    
+
+      {/* =========== PROJECT IMAGE =========== */}
+      {image && (
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-48 object-cover rounded-lg mt-4"
+        />
+      )}
+
+      {/* =========== PROJECT TITLE =========== */}
+      <h3 className="font-bold text-lg text-zinc-700 dark:text-zinc-300 mt-4">
+        {title}
+      </h3>
+
       <div className="flex gap-2 overflow-x-scroll py-2">
         {/* =========== TECHNOLOGIES USED =========== */}
         {technologies.split(",").map((tech, index) => (
@@ -14,10 +30,7 @@ function Project({ title, description, technologies, link, github }) {
           </span>
         ))}
       </div>
-      {/* =========== PROJECT TITLE =========== */}
-      <h3 className="font-bold text-lg text-zinc-700 dark:text-zinc-300 mt-4">
-        {title}
-      </h3>
+
       {/* =========== PROJECT DESCRIPTION =========== */}
       <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
         {description}

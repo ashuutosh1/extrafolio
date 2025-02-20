@@ -1,12 +1,12 @@
 const info = {
   // ============ MAIN DETAILS ============
   main: {
-    name: "Nitin Kushwaha",
+    name: "Ashutosh Kumar Singh",
     description:
-      "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-    role: "Blockchain Developer",
-    photo: "../pfp1.jpg",
-    email: "nitin@gmail.com",
+      "I am a software engineer with expertise in full-stack web development and mobile app developement. I have experience in building scalable, secure and reliable applications using various frameworks and technologies. I am passionate about creating high-quality code that follows best practices and industry standards.",
+    role: "Web and Mobile App Developer",
+    photo: "../images4.jpg",
+    email: "bro4code@gmail.com",
   },
 
   // ============ PROJECTS ============
@@ -18,6 +18,7 @@ const info = {
       technologies: "React, Tailwind, Flask, SpaCy",
       github: "https://github.com",
       link: "https://pseudocode-to-c.netlify.app/",
+      image: "images3.jpg" 
     },
 
     {
@@ -27,6 +28,7 @@ const info = {
       technologies: "Nuxt, Tailwind, Express, PostgreSQL",
       github: "https://github.com",
       link: "https://github.com/dsbalico/YouShare",
+      image: "images4.jpg" 
     },
 
     {
@@ -36,6 +38,7 @@ const info = {
       technologies: "React, Tailwind, Tensorflow",
       github: "https://github.com",
       link: "https://letterdigitshape-classification.netlify.app/",
+      image: "school2.png" 
     },
 
     {
@@ -45,6 +48,7 @@ const info = {
       technologies: "React, Tailwind, Firebase",
       github: "https://github.com",
       link: "https://thechatroom.netlify.app/",
+      image: "school1.png" 
     },
 
     {
@@ -54,6 +58,7 @@ const info = {
       technologies: "React, Tailwind, TypeScript",
       github: "https://github.com",
       link: "https://sudoku-solver-sa.netlify.app/",
+      image: "images4.jpg" 
     },
   ],
 
@@ -62,15 +67,15 @@ const info = {
     {
       school: "Chandigarh University",
       degree:
-        "Bachelor of Engineering in Computer Science and Engineering with specilization in Blockchain Technology",
+        "Bachelor of Engineering - Computer Science and Engineering (with specilization in Blockchain Technology)",
       duration: "2022 - 2026",
       image: "college1.jpg",
     },
     {
-      school: "Nitin bhai ka School",
-      degree: "10th and 12th",
-      duration: "2018 - 2021",
-      image: "school1.png",
+      school: "Academic Global School",
+      degree: "High School (10th) and Senior Secondary (12th)",
+      duration: "2018 - 2022",
+      image: "school2.png",
     },
   ],
 
