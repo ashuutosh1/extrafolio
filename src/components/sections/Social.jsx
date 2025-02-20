@@ -12,7 +12,7 @@ export default function Social() {
 
   return (
     <>
-      <div className="flex justify-center  mt-10">
+      <div className="flex justify-center  mt-5">
         <div
           id="connects"
           className=" gap-10 my-10 border-2 border-indigo-200 rounded-xl"
@@ -46,6 +46,12 @@ export default function Social() {
           </div>
         </div>
       </div>
+      <span className="text-zinc-400 flex justify-center ">
+       Made with ❤️ by Ashutosh
+      </span>
+      <span className="text-zinc-600 flex justify-center mb-5 ">
+        © Ashutosh. All rights reserved.
+      </span>
     </>
   );
 }

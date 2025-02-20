@@ -43,7 +43,7 @@ function Project({
       </p>
 
       {/* =========== PROJECT DESCRIPTION =========== */}
-      <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
+      <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-sm mt-4">
         {description}
       </p>
 

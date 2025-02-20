@@ -31,7 +31,7 @@ function Hero() {
                 href="mailto:bro4code@gmail.com"
                 target="mailto:bro4code@gmail.com"
                 rel="noopener noreferrer"
-                className="px-6 py-3 border rounded-xl border-black hover:bg-indigo-400 hover:text-white hover:border-indigo-400 dark:border-white font-medium transition-all duration-300"
+                className="flex items-center px-6 py-3 border rounded-xl border-black hover:bg-indigo-400 hover:text-white hover:border-indigo-400 dark:border-white font-medium transition-all duration-300"
               >
                 Email
               </a>

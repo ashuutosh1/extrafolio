@@ -19,7 +19,7 @@ const info = {
       technologies: "React, Tailwind, Flask, SpaCy",
       github: "https://github.com",
       link: "",
-      image: "images3.jpg",
+      image: "project1.png",
     },
 
     {
@@ -48,7 +48,7 @@ const info = {
       title: "EcoRide - Bike and Cab Booking Mobile App",
       date: "Jan 2025 - April 2025",
       description:
-        "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
+        "EcoRide is a versatile bike and cab booking application designed to provide users with seamless transportation solutions. Built with React Native, it delivers a smooth, cross-platform experience for both Android and iOS users. The app utilizes Google Map API for real-time navigation, ride tracking, and location services, ensuring efficient route planning.",
       technologies: "React_Native, CSS, Firebase,Google_Map_API",
       github: "https://github.com/ashuutosh1/EcoRide-Mobile-App",
       link: "",
@@ -59,7 +59,7 @@ const info = {
       title: "Anonymous File Sharing Platform",
       date: "April 2023 - May 2023",
       description:
-        "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
+        "An anonymous file-sharing platform allows users to securely share files without revealing their identity. It ensures privacy through end-to-end encryption and does not require user registration or personal information.",
       technologies: "HTML, CSS, JavaScript",
       github: "https://github.com/ashuutosh1/fileshare.github.io",
       link: "https://fileshare-phi.vercel.app/",
@@ -72,7 +72,7 @@ const info = {
     {
       school: "Chandigarh University",
       degree:
-        "Bachelor of Engineering - Computer Science and Engineering (with specilization in Blockchain Technology)",
+        "Bachelor of Engineering - Computer Science and Engineering (Spec. in Blockchain)",
       duration: "2022 - 2026",
       image: "college1.jpg",
     },
@@ -87,25 +87,26 @@ const info = {
   // ============ EXPERIENCE ============
   experience: [
     {
+      position:
+        "Industrial Training -- Under the guidence of Chandigarh University",
+      company: "Cisco Network Academy Traniee.",
+      duration: "June 2024 - July 2024 (1 Month)",
+      image: "cisco1.png",
+      descriptions: [
+        "Network Configuration and Troubleshooting: Learned to configure routers and switches using Cisco Packet Tracer, ensuring efficient network connectivity and security. ",
+        "Gained hands-on experience in troubleshooting network issues and implementing best practices for network management.",
+        "Introduction to Cybersecurity: Explored fundamental cybersecurity concepts, including network security protocols, firewalls, and threat mitigation strategies, to protect systems from potential cyber threats.",
+      ],
+    },
+    {
       position: "Blockchain Developer Traniee",
       company: "MetaCrafter Traniee.",
       duration: "June 2023 - Aug 2023 (2 Months)",
       image: "metacrafter1.jpg",
       descriptions: [
-        "Completed an extensive training program in full-stack web development.",
-        "Actively contributed to the ongoing development of a web application.",
+        "Completed an extensive training program in blockchain development.",
+        "Actively contributed to the smart contract development.",
         "Mentored by senior developers on best practices and code optimization.",
-      ],
-    },
-    {
-      position:
-        "CyberSecurity Traniee under th gudence of Chandigarh University",
-      company: "Cisco Network Academy",
-      duration: "June 2024 - July 2024 (1 Month)",
-      image: "cisco1.png",
-      descriptions: [
-        "Developed Python scripts to automate document score calculations.",
-        "Developed a company website as part of an ICT-related work immersion program.",
       ],
     },
   ],
@@ -113,16 +114,18 @@ const info = {
   // ============ CERTIFICATES ============
   certificates: [
     {
-      title: "Foundations of Cybersecurity Certificate",
-      description: "Provided by Coursera & Authorized by IBM",
-      icon: "ibm",
+      title: "Web Development Bootcamp -- Udmey",
+      description: "",
+      icon: "udmey",
       link: "https://www.coursera.org/",
+      image: "certi2.jpg",
     },
     {
-      title: "Git and GitHub Essentials",
-      description: "Provided by Coursera & Authorized by IBM",
-      icon: "ibm",
-      link: "https://www.credly.com/",
+      title: "Blockchain Revolution -- Coursera",
+      description: "Authorized by INSEAD",
+      icon: "coursera",
+      link: "https://coursera.org/verify/specialization/0H2K8I2T4N8N",
+      image: "certi1.png",
     },
   ],
 };

@@ -4,6 +4,8 @@ import { FaBuildingUser } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { PiCertificateFill } from "react-icons/pi";
 import { SiHackerrank, SiIbm } from "react-icons/si";
+import courseraLogo from "../../../public/courseralogo.webp";
+import udmeyLogo from "../../../public/udmey.png";
 
 function EducationAndExperience() {
   return (
@@ -43,7 +45,7 @@ function EducationAndExperience() {
 
                   <div className="grow p-2 pb-8">
                     {/* =========== IMAGE AND SCHOOL NAME =========== */}
-                    <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
+                    <h3 className="flex items-center gap-x-4 font-semibold text-zinc-800 dark:text-white">
                       <img
                         className="w-9 h-9 rounded-full"
                         src={edu.image}
@@ -73,7 +75,7 @@ function EducationAndExperience() {
             data-hs-carousel='{"loadingClasses": "opacity-0"}'
             className="relative mt-4"
           >
-            <div className="hs-carousel relative overflow-hidden w-full h-48 bg-white dark:bg-gray-800 rounded-lg">
+            <div className="hs-carousel relative overflow-hidden w-full h-64 bg-white dark:bg-gray-800 rounded-lg">
               <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
                 {/* =========== CERTIFICATES LIST =========== */}
                 {user_info.certificates.map((cert, index) => {
@@ -83,6 +85,18 @@ function EducationAndExperience() {
                         <SiIbm className="text-blue-500 absolute right-5 top-0 text-5xl" />
                       ) : cert.icon === "google" ? (
                         <FcGoogle className="text-blue-500 absolute right-5 top-3 text-3xl" />
+                      ) : cert.icon === "coursera" ? (
+                        <img
+                          src={courseraLogo}
+                          alt="Coursera Logo"
+                          className="max-sm:w-10 max-sm:h-5 h-10 absolute right-5 top-3"
+                        />
+                      ) : cert.icon === "udmey" ? (
+                        <img
+                          src={udmeyLogo}
+                          alt="Coursera Logo"
+                          className="max-sm:w-10 max-sm:h-5 h-10 absolute right-5 top-3"
+                        />
                       ) : (
                         <SiHackerrank className="text-green-500 absolute right-5 top-3 text-3xl" />
                       )}
@@ -95,6 +109,13 @@ function EducationAndExperience() {
                             rel="noreferrer"
                             className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-indigo-400 hover:dark:text-indigo-400"
                           >
+                            {/* =========== CERTIFICATE IMAGE =========== */}
+                            <img
+                              className="w-full h-32 object-contain mb-4"
+                              src={cert.image}
+                              alt={cert.title}
+                            />
+
                             {/* =========== CERTIFICATE NAME =========== */}
                             <p className=" transition duration-700 px-6 font-bold">
                               {cert.title}
