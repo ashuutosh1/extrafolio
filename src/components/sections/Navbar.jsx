@@ -1,5 +1,5 @@
 import { getConfigData } from "../../data/configReader";
-import myAssets from "../../../public/EcoRide_Phase2 PDF.pdf";
+import myAssets from "../../../public/myresume.pdf";
 import {
   FaXTwitter,
   FaInstagram,
