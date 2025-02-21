@@ -4,8 +4,8 @@ import { FaBuildingUser } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { PiCertificateFill } from "react-icons/pi";
 import { SiHackerrank, SiIbm } from "react-icons/si";
-import courseraLogo from "../../../public/courseralogo.webp";
-import udmeyLogo from "../../../public/udmey.png";
+import courseraLogo from "../../../public/certificate-image/courseralogo.webp";
+import udmeyLogo from "../../../public/certificate-image/udmey.png";
 
 function EducationAndExperience() {
   return (

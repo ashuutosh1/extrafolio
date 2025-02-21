@@ -1,13 +1,6 @@
 import { getConfigData } from "../../data/configReader";
 import myAssets from "../../../public/myresume.pdf";
-import {
-  FaXTwitter,
-  FaInstagram,
-  FaDribbble,
-  FaGithub,
-  FaLinkedinIn,
-  FaDiagramProject,
-} from "react-icons/fa6";
+import { FaXTwitter, FaDiagramProject } from "react-icons/fa6";
 
 export default function Navbar() {
   const configData = getConfigData();
@@ -41,7 +34,7 @@ export default function Navbar() {
                 </svg>
               </a>
               <a
-                href="#education-and-experience"
+                href="https://x.com/ashutos_h1"
                 className="flex gap-2 items-center opacity-50 p-2 hover:bg-black text-white hover:text-black rounded-full transition-all duration-300 hover:opacity-100"
               >
                 <FaXTwitter className="text-xl  dark:text-white border-2 border-white" />
