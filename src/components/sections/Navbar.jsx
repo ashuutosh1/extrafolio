@@ -52,7 +52,7 @@ export default function Navbar() {
                 className="flex max-md:gap-2 gap-2 items-center opacity-50 p-2 hover:bg-black text-white hover:text-white rounded-full transition-all duration-300 hover:opacity-100"
               >
                 <FaDiagramProject className=" max-md:text-sm text-xl  dark:text-white" />
-                <span className="">Projects</span>
+                <span className="max-md:text-sm">Projects</span>
               </a>
             </div>
             <div className="justify-center">
